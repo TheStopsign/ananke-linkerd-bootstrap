@@ -10,6 +10,11 @@ spec:
     repoURL: https://helm.linkerd.io/stable
     targetRevision: 1.4.0
     helm:
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
   destination:
     namespace: linkerd
     server: https://kubernetes.default.svc
