@@ -1,0 +1,3 @@
+identityTrustAnchorsPEM: |
+  -----BEGIN CERTIFICATE-----
+  -----END CERTIFICATE-----
