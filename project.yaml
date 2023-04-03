@@ -32,6 +32,8 @@ spec:
       server: https://kubernetes.default.svc
     - namespace: linkerd
       server: https://kubernetes.default.svc
+    - namespace: linkerd-viz
+      server: https://kubernetes.default.svc
   sourceRepos:
     - git://git-server.scm:9418/ananke-linkerd-bootstrap.git
     - https://charts.jetstack.io
