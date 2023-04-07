@@ -24,3 +24,13 @@ spec:
       name: authorizationpolicies.policy.linkerd.io
       jsonPointers:
         - /spec/names/shortNames
+    - group: "apiextensions.k8s.io"
+      kind: CustomResourceDefinition
+      name: meshtlsauthentications.policy.linkerd.io
+      jsonPointers:
+        - /spec/names/shortNames
+    - group: "apiextensions.k8s.io"
+      kind: CustomResourceDefinition
+      name: networkauthentications.policy.linkerd.io
+      jsonPointers:
+        - /spec/names/shortNames
