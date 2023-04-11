@@ -12,7 +12,7 @@ spec:
     data: null
     metadata:
       annotations:
-        linkerd.io/created-by: linkerd/cli stable-2.12.0
+        linkerd.io/created-by: linkerd/cli stable-2.13.0
       creationTimestamp: null
       labels:
         linkerd.io/control-plane-component: identity
